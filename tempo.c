@@ -31,7 +31,7 @@ void obterPrevisao(char* cidade) {
     dados.size = 0;
 
     char url[1000];
-    sprintf(url, "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=SUA_CHAVE_DE_API", cidade);
+    sprintf(url, "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=736fda0fe003d60643bc76ec09ac3154", cidade);
 
     curl_global_init(CURL_GLOBAL_DEFAULT);
     curl = curl_easy_init();
